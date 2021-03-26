@@ -4,6 +4,33 @@ html {
   touch-action: manipulation;
 }
 
+// {{ default "light" .Site.Params.BookTheme }}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
+    color: #1a2a3a;    
+}
+
+/*
+
+body {
+    font-family: '';
+    font-size: 16px;
+    color: #1a2a3a;
+    opacity: 1.0;
+}
+*/
+/*h1, h2, h3, h4, h5, h6 {
+  font-family: "Quattrocento Sans";
+  color:black;
+}
+*/
+
+// code {
+//   font-family: 'Fira Code', monospace;
+// }
+
+
 body {
   min-width: $body-min-width;
   color: var(--body-font-color);
@@ -14,7 +41,10 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  font-family: $font-body;
+  font-size: 16px;
+  color: #1a2a3a;
+  opacity: 1.0;    
   box-sizing: border-box;
   * {
     box-sizing: inherit;
@@ -26,7 +56,9 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: $body-font-weight;
+    font-weight: $body-font-weight;
+    font-family: $font-heading;
+    color: #1a2a3a;        
 }
 
 a {
