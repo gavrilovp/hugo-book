@@ -4,26 +4,6 @@ html {
   touch-action: manipulation;
 }
 
-/*
-
-body {
-    font-family: '';
-    font-size: 16px;
-    color: #1a2a3a;
-    opacity: 1.0;
-}
-*/
-/*h1, h2, h3, h4, h5, h6 {
-  font-family: "Quattrocento Sans";
-  color:black;
-}
-*/
-
-// code {
-//   font-family: 'Fira Code', monospace;
-// }
-
-
 body {
   min-width: $body-min-width;
   color: var(--body-font-color);
@@ -48,8 +28,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
     font-weight: $body-font-weight;
     font-family: $font-heading;
     color: #1a2a3a;        
