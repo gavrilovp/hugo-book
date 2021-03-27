@@ -10,7 +10,7 @@ $font-body: {{ $.Site.Params.body_font | default "'Roboto', sans-serif" }};
 // $font-body: {{ default "Roboto" .Site.Params.body_font }};
 // $font-code: {{ default "Roboto" .Site.Params.code_font }};
 
-@import "normalize";
+// @import "normalize";
 @import "utils";
 @import "main";
 @import "fonts";
