@@ -2,13 +2,16 @@
 
 // @import "plugins/numbered";
 
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-weight: $body-font-weight;
-    font-family: $font-heading;
-    color: #1a2a3a;        
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
 }
