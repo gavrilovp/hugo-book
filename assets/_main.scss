@@ -8,7 +8,6 @@ body {
   min-width: $body-min-width;
   color: var(--body-font-color);
   background: var(--body-background);
-
   letter-spacing: 0.33px;
   font-weight: $body-font-weight;
   text-rendering: optimizeLegibility;
@@ -16,7 +15,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: $font-body;
   font-size: 16px;
-  color: #1a2a3a;
+  color: rgba(227, 226, 223, 1);/*#1a2a3a;*/
   opacity: 1.0;    
   box-sizing: border-box;
   * {
@@ -29,9 +28,9 @@ h2,
 h3,
 h4,
 h5 {
-    font-weight: $body-font-weight;
-    font-family: $font-heading;
-    color: #1a2a3a;        
+  font-weight: $body-font-weight;
+  font-family: $font-heading;
+  color: rgba(227, 226, 223, 1);/*#1a2a3a;*/
 }
 
 a {
